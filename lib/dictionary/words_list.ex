@@ -11,9 +11,10 @@ defmodule Dictionary.WordsList do
   end
 
   def words_list do
-    "../../assets/words.txt"
-    |> Path.expand( __DIR__ )
-    |> File.read!()
-    |> String.split(~r/\n/)
+    ["omar", "noha", "yomna", "mohamed", "abdulrahman", "abdullah", "esraa", "aly", "eman", "enayat", "ahmed", "youssef"]
+    # "../../assets/words.txt"
+    # |> Path.expand( __DIR__ )
+    # |> File.read!()
+    # |> String.split(~r/\n/)
   end
 end
